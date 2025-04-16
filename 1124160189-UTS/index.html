@@ -50,6 +50,9 @@
         th{
             background-color: #f2f2f2;
         }
+        .gambar {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -59,6 +62,7 @@
         </div>
         <div class="container">
             <img src="img/profil.webp" alt="Foto Profil" class="profile-img">
+        </div>
     </header>
     <h3>Informasi Pribadi</h3>
     <ul style="list-style-type: square;">
@@ -107,6 +111,15 @@
             </tr>
         </tbody>
     </table>
+    <h3>Peta Indonesia</h3>
+    <p>Klik Pada Pulau Untuk Melihat Informasi</p>
+    <div class="gambar">
+        <img src="img/petaindonesia.jpeg" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" shape="circle" title="Kalimantan" coords="278,159,67" href="kalimantan.html" alt="">
+            <area target="_blank" shape="circle" title="Aceh" coords="19,91,23" href="aceh.html" alt="">
+        </map>
+    </div>
     
 </body>
 </html>
